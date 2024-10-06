@@ -67,7 +67,6 @@ declare type Transaction = {
   $id: string;
   name: string;
   paymentChannel: string;
-  type: string;
   accountId: string;
   amount: number;
   pending: boolean;
@@ -137,9 +136,9 @@ declare type NewDwollaCustomerParams = {
 };
 
 declare interface CreditCardProps {
-  account: Account;
-  userName: string;
-  showBalance?: boolean;
+  account: Account
+  userName: string
+  showBalance?: boolean
 }
 
 declare interface BankInfoProps {
