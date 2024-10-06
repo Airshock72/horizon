@@ -1,4 +1,3 @@
-import React from 'react'
 import AnimatedCounter from '@/components/AnimatedCounter'
 import DoughnutChart from '@/components/DoughnutChart'
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HeaderBox = ({ title = 'title', ...props }: HeaderBoxProps) => {
   return (
     <div className='header-box'>
